@@ -50,19 +50,19 @@ The main purpose of Class IO is to gather the user’s input of two numbers and 
 ### Menu()
 This function is  a simple display of the python calculator menu that provides the user information to choose from.
 
-![Menu of Options](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure5.png)
+![Menu of Options](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure5.png)  
 *Figure 5: Menu of Options*
 
 ### User_Input_task()
 This function uses the *input()* function to request user input by prompting a message to make a menu selection. In line 45, the user’s input choice is stored in an object list and is saved into a file. Line 50 returns the user’s choice to be utilized elsewhere within the script as shown in *figure 6*.
 
-![Storing user's menu choice](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure6.png)
+![Storing user's menu choice](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure6.png)  
 *Figure 6: Storing user's menu choice*
 
 ### output_sum(), output_difference(), output_product(), output_quotient()
 The next set of functions shown in *figure 7* in this class are the outputs of the sum, difference, product, and quotient. The summary for all of these functions is defining a local variable to another class function value and outputs a message with the results of the calculation. Each function passes two arguments or parameters which is “num1” and “num2”. These parameters represents the user’s two input values for each calculation to perform.
 
-![Output functions for sum, difference, product, quotient](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure7.png)
+![Output functions for sum, difference, product, quotient](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure7.png)  
 *Figure 7: Output functions for sum, difference, product, and quotient*
 
 ### addvalues(num1, num2)
@@ -70,48 +70,48 @@ In *figure 8* this function under class “Processor” is utilized when the use
 
 The same code structure is similar for functions subtractvalues() and multiplyvalues().
 
-![add values function](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure8.png)
+![add values function](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure8.png)  
 *Figure 8: add values function*
 
 ### dividevalues(num1, num2)
 Shown in *figure 9* dividevalues passes two arguments which contains the user’s two inputs to calculate the quotient. Similar to the addvalues coding structure, this function uses a while loop to continuously check the user’s inputs. However, in the if-elif-else statement, if the user inputs 0 or 0.0 as the second value, a custom divide_by_zero exception class will be raised as shown in figure 10 and outputs a custom error message to the user shown in *figure 11*.
 
-![divide values function](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure9.png)
+![divide values function](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure9.png)  
 *Figure 9: dividevalues function*
 
-![divide_by_zero exception class](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure10.png)
+![divide_by_zero exception class](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure10.png)  
 *Figure 10: divide_by_zero exception class*
 
-![Divide by 0 custom message output](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure11.png)
+![Divide by 0 custom message output](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure11.png)  
 *Figure 11: Divide by 0 custom message output*
 
 The last function shown in *figure 12*  inside the processor class is the save_data_to_file. The purpose of this function was to dump the user’s menu choice input into a file in binary format. This function passes the global variable file name and data list, opens the file and with the imported pickle in line 10 of the script, the dump() pickle function is used to place the list of data or user’s choice into the file in binary format.
 
-![Pickling](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure12.png)
+![Pickling](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure12.png)  
 *Figure 12: Pickling Function*
 
 ### Exception  Handling
 In *figure 13* there are three Exception classes in this script as mentioned earlier. Num1_invalid and num2_invalid  will be raised if the user enters a char or symbol for the first or second number input. This exception will prompt a message indicating the entered input is not valid.
 
-![Custom message for exception handling](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure13.png)
+![Custom message for exception handling](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure13.png)  
 *Figure 13: Custom message for exception handling*
 
 ### Presentation
 In *figure 14*, the last section of this script contains the presentation of the user’s choices. In this while loop in line 215, the menu is displayed followed by the definition of global variable ‘choice’ assigned to the returned value of IO.user_input_task(). Based on this function, the variable ‘choice’ will be compared in the if-elif-else statements and execute the functions within. The script will run the script until the user enters ‘5’ to exit the program.
 
-![Presentation](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure14.png)
+![Presentation](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure14.png)  
 *Figure 14: Presentation*
 
 ## Running the Code
 ### Pycharm IDE
 *Figure 15* shows a snapshot of performing option 1 of the python calculator to calculate the sum of two values. I entered the char ‘a’ to raise the custom class exception num1_invalid with the custom message.
 
-![Pycharm IDE Output](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure15.png)
+![Pycharm IDE Output](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure15.png)  
 *Figure 15: Pycharm IDE output of Calculate Sum*
 
 Similarly I tested the divide_by_zero class exception to capture the exception handling as shown in *figure 16*.
 
-![output of divide_by_zero exception](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure%2016.png)
+![output of divide_by_zero exception](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure%2016.png)  
 *Figure 16: Raising divide_by_zero exception*
 
 ### OS Command/Terminal
@@ -119,10 +119,10 @@ Similarly I tested the divide_by_zero class exception to capture the exception h
 
 *Figure 18* provides a snapshot of the pickling function storing the user’s choice into a file in binary format.
 
-![Python Calculator on OS Command/Terminal](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure17.png)
+![Python Calculator on OS Command/Terminal](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure17.png)  
 *Figure 17: Python Calculator on OS Command/Terminal*
 
-![User's choice in binary format](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure18.png)
+![User's choice in binary format](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure18.png)  
 *Figure 18: User's menu choice in binary format*
 
 ## Conclusion
