@@ -13,3 +13,4 @@ My objective for this script is to provide the user a menu of options numbered 1
 4)	Calculate Quotient
 5)	Exit Program
 
+![Python Calculator Menu](figure1.png)"Python Calculator Menu"
