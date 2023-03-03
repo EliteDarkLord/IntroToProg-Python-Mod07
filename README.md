@@ -102,4 +102,29 @@ In *figure 14*, the last section of this script contains the presentation of the
 ![Presentation](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure14.png)
 *Figure 14: Presentation*
 
+## Running the Code
+### Pycharm IDE
+*Figure 15* shows a snapshot of performing option 1 of the python calculator to calculate the sum of two values. I entered the char ‘a’ to raise the custom class exception num1_invalid with the custom message.
+
+![Pycharm IDE Output](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure15.png)
+*Figure 15: Pycharm IDE output of Calculate Sum*
+
+Similarly I tested the divide_by_zero class exception to capture the exception handling as shown in *figure 16*.
+
+![output of divide_by_zero exception](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure%2016.png)
+*Figure 16: Raising divide_by_zero exception*
+
+### OS Command/Terminal
+*Figure 17* provides an example of the python calculator script on OS Command/Terminal. Using the terminal command cd to change directory to the appropriate folder containing the program file. Then using ls to list out the files within the designated folder I performed the quotient calculation to raise the divide_by_zero exception. 
+
+*Figure 18* provides a snapshot of the pickling function storing the user’s choice into a file in binary format.
+
+![Python Calculator on OS Command/Terminal](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure17.png)
+*Figure 17: Python Calculator on OS Command/Terminal*
+
+![User's choice in binary format](https://github.com/EliteDarkLord/IntroToProg-Python-Mod07/blob/main/Github%20pictures/figure18.png)
+*Figure 18: User's menu choice in binary format*
+
+## Conclusion
+From watching the course video, reading chapter 7 of the textbook, and following along the labs in the “_Mod7PythonProgrammingNotes” document, and watching various videos recommended by the instructor,  I was able to utilize Pycharm IDE to create a working python calculator script with exception handling and pickling.
 
